@@ -1,4 +1,5 @@
 #include "graph.h"
+#include <iostream>
 
 using namespace std;
 
@@ -15,6 +16,8 @@ int main(){
 
 
 	test.BreadthFirstSearch(0);
+	cout << "--DFS--" << endl;
+	test.DepthFirstSearch(0);
 
 	return 0;
 }
